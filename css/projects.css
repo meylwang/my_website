@@ -1,0 +1,108 @@
+.project {
+    padding-top: 4vw;
+    margin-bottom: -4vw;
+    margin-left: 14vw;
+    height: 43vw;
+    transition: margin-bottom 500ms;
+}
+
+.tall {
+    margin-bottom: 6vw !important;
+}
+
+.project-text {
+    position: absolute;
+    z-index: 2;
+    /* margin-left: 42vw; */
+    margin-top: 6vw;
+    padding-left: 11vw;
+}
+
+.project-animbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 73vw;
+}
+
+.project-tag {
+    transform: rotate(90deg);
+    position: absolute;
+    z-index: 2;
+    margin-top: 6vw;
+    margin-left: -2vw;
+    width: 7vw;
+}
+
+.project-title {
+    font-family: 'Lora';
+    font-weight: bold;
+    font-size: 8vw;
+    padding-left: 4vw;
+    width: 20vw;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.project-title.animate {
+    opacity: 1 !important;
+}
+
+.project-title.animate:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.project-subtitle {
+    font-family: 'Lora';
+    font-style: italic;
+    white-space: nowrap;
+    align-self: flex-end;
+    overflow: hidden;
+    margin-bottom: -4vw;
+    opacity: 1;
+    width: 0;
+    transition: width 500ms;
+    transition-delay: 500ms;
+}
+
+.project-subtitle.animate {
+    width: 30vw !important;
+}
+
+.project-subtitle span {
+    margin-left:-50vw;
+    transition: margin-left 500ms;
+    transition-delay: 0s;
+}
+
+.project-subtitle.animate span {
+    margin-left: 0 !important;
+    transition-delay: 500ms !important;
+}
+
+.project-description {
+    margin-top: 6vw;
+    margin-left: 31vw;
+    width: 25vw;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 500ms;
+    transition-delay: 0s;
+}
+
+.project-description.animate {
+    opacity: 1;
+    transition-delay: 500ms !important;
+}
+
+.masking {
+    position: absolute;
+    clip: rect(0px, 85vw,30vw,0px);
+    transition: clip 500ms;
+    margin-left: 5vw;
+}
+
+.masking.expand {
+    clip: rect(0px, 34vw,43vw,0px) !important;
+}

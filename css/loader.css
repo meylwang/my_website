@@ -1,0 +1,61 @@
+/* Center the loader */
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height:100vh;
+    z-index: 5;
+    background-color: #F3AFB9;
+    text-shadow: -3px 3px #E587AC;
+    font-family: "Karla", sans-serif;
+    color: #57FEC5;
+    font-weight: bold;
+    font-size: 30pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 15vw;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.fade {
+opacity: 0 !important;
+}
+
+.loader-letter {
+    display: none;
+}
+
+.loader-space {
+    width: 15px;
+}
+
+.loader-type {
+    -webkit-animation: typing 1s linear infinite;
+    animation: typing 1s linear infinite;
+}
+
+@-webkit-keyframes typing {
+    0% {opacity: 0; }
+    5% {opacity: 1; }
+    75% {opacity: 1; }
+    80% {opacity: 0; }
+    100% {opacity: 0; }
+}
+
+@keyframes typing {
+    0% {opacity: 0; }
+    5% {opacity: 1; }
+    75% {opacity: 1; }
+    80% {opacity: 0; }
+    100% {opacity: 0; }
+}
+
+#content-wrapper {
+    display: block;
+    text-align: center;
+}

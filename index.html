@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>three.js webgl - multiple elements with text</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Lora:400,400i,700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/loader.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/projects.css">
+    <script src = "./js/loader.js"></script>
+</head>
+<body onload="loadingHandler()">
+    <div  id="loader">
+        <div class="loader-letter">H</div>
+        <div class="loader-letter">i</div>
+        <div class="loader-letter">!</div>
+        <div class="loader-letter loader-space"></div>
+        <div class="loader-letter">m</div>
+        <div class="loader-letter">M</div>
+        <div class="loader-letter">y</div>
+        <div class="loader-letter loader-space"></div>
+        <div class="loader-letter">n</div>
+        <div class="loader-letter">a</div>
+        <div class="loader-letter">m</div>
+        <div class="loader-letter">e</div>
+        <div class="loader-letter loader-space"></div>
+        <div class="loader-letter">i</div>
+        <div class="loader-letter">s</div>
+        <div class="loader-letter loader-space"></div>
+        <div class="loader-letter">M</div>
+        <div class="loader-letter">e</div>
+        <div class="loader-letter">l</div>
+        <div class="loader-letter">i</div>
+        <div class="loader-letter">n</div>
+        <div class="loader-letter">d</div>
+        <div class="loader-letter">a</div>
+        <div class="loader-letter loader-space"></div>
+        <div class="loader-letter">W</div>
+        <div class="loader-letter">a</div>
+        <div class="loader-letter">n</div>
+        <div class="loader-letter">g</div>
+        <div class="loader-letter">.</div>
+        <div class="loader-letter">.</div>
+        <div class="loader-letter">.</div>
+        <div class="loader-type">|</div>
+    </div>
+    <div class="header">
+        <div class="header-logo">
+            <img class="header-logoimg" src="images/home/logowhite-02.png">
+        </div>
+        <div class="menu">
+            <div id="men" class="menu-item highlighted">me</div>
+            <div id="ux" class="menu-item">ux</div>
+            <div id="xr" class="menu-item">xr</div>
+            <div id="fun" class="menu-item">fun</div>
+        </div>
+    </div>
+    <div id="me" class = "hero">
+        <canvas id="hero" style="width: 100vw; height: 90vh;"></canvas>
+
+        <div class = "hero-textblock">
+                <div class="hero-title">I'm Melinda Wang</div>
+                <div class="hero-text">a Product Designer and Computer Science student at Stanford University. I specialize in information
+                    architecture and bridging the gap between design and development. Talk to me about novel interactions in VR/AR,
+                    ethical design, and designing for healthy behaviors.</div>
+                <div>
+                    <a class="hero-link" href="./images/home/Melinda_Wang_Resume.pdf">Resume.</a>
+                    <a class="hero-link" href="https://www.linkedin.com/in/melindaywang">LinkedIn.</a>
+                    <a class="hero-link" href="https://www.instagram.com/m.wang_/">Instagram.</a>
+                </div>
+        </div>
+    </div>
+    <div id="app">
+        <div id="charity" class="project">
+            <div class="project-tag">
+                <div>Mobile</div>
+                <div>2019</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="charity/charity.html"><div class="project-title">Charity Navigator</div></a>
+                    <div class="project-subtitle"><span>Usability Testing. Iteration</span></div>
+                </div>
+                <div class="project-description">Fostering trust in the charity search process through thoughtful information presentation</div>
+            </div>
+        </div>
+        <div id="letsdance" class="project">
+            <div class="project-tag">
+                <div>Mobile</div>
+                <div>2019</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="letsdance/letsdance.html"><div class="project-title">Let's Dance</div></a>
+                    <div class="project-subtitle"><span>Needfinding. Prototyping.</span></div>
+                </div>
+                <div class="project-description">Helping choreographers to effortlessly create, visualize, and share dance formations</div>
+            </div>
+        </div>
+        <div id="salesforce" class="project">
+            <div class="project-tag">
+                <div>WebApp</div>
+                <div>2018</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="salesforce/salesforce.html"><div class="project-title">Salesforce Onboarding</div></a>
+                    <div class="project-subtitle"><span>Information Architecture</span></div>
+                </div>
+                <div class="project-description">Easing new hire transitions with task based and timed Onboarding information</div>
+            </div>
+        </div>
+        <div id="vsco" class="project">
+            <div class="project-tag">
+                <div>Mobile</div>
+                <div>2019</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="vsco/vsco.html"><div class="project-title">VSCO Journals</div></a>
+                    <div class="project-subtitle"><span>Task Analysis. User Flows</span></div>
+                </div>
+                <div class="project-description">Sharing photo stories in a free and dynamic journal format</div>
+            </div>
+        </div>
+        <div id="donttouch" class="project">
+            <div class="project-tag">
+                <div>Mixed</div>
+                <div>2019</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="xr/donttouch.html"><div class="project-title">Don't Touch</div></a>
+                    <div class="project-subtitle"><span>Photogrammetry. HTC Vive</span></div>
+                </div>
+                <div class="project-description">Intertwining the digital and physical, agency and viewership, space and the human form</div>
+            </div>
+        </div>
+        <div id="lumos" class="project">
+            <div class="project-tag">
+                <div>Augmented</div>
+                <div>2017</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="xr/lumos.html"><div class="project-title">Lumos</div></a>
+                    <div class="project-subtitle"><span>Microsoft HoloLens</span></div>
+                </div>
+                <div class="project-description">A voice-controlled memory assistant to assist in note-taking and idea creation</div>
+            </div>
+        </div>
+        <div id="sketchpack" class="project">
+            <div class="project-tag">
+                <div>Manufacturing</div>
+                <div>2018</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="sketchpack/sketchpack.html"><div class="project-title">SketchPack</div></a>
+                    <div class="project-subtitle"><span>Machining. Wood Carving</span></div>
+                </div>
+                <div class="project-description">A convenient way for artists to carry the various pens needed to sketch on the spot</div>
+            </div>
+        </div>
+        <div id="visual" class="project">
+            <div class="project-tag">
+                <div>Art</div>
+                <div>2016</div>
+            </div>
+            <div class="project-text">
+                <div class="project-animbox">
+                    <a href="visual/visual.html"><div class="project-title">Visual Exploration</div></a>
+                    <div class="project-subtitle"><span>Charcoal. Mixed Media</span></div>
+                </div>
+                <div class="project-description">Exploring the intersection of art and science through mixed media art pieces</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-textblock">
+            <div class="footer-title">Thank you for visiting!</div>
+            <div class="footer-text">
+                <span>See what I'm up to at my</span>
+                <a class="footer-link" href="https://www.instagram.com/m.wang_/">Instagram</a>
+                <span>or drop me an</span>
+                <a class="footer-link" href="mailto:melwang@stanford.edu">email</a>
+                <span>. You can also find me on</span>
+                <a class="footer-link" href="">LinkedIn</a>
+                <span>,</span>
+                <a class="footer-link" href="">VSCO</a>
+                <span>,</span>
+                <a class="footer-link" href="">Spotify</a>
+                <span>, and</span>
+                <a class="footer-link" href="">Twitter</a>
+                <span>.</span>
+            </div>
+            <div class="footer-subtitle">Home page coded by Melinda Wang using 3js and Pixijs.</div>
+        </div>
+        <canvas id="footer" style="width: 100vw; height: 90vh;"></canvas>
+    </div>
+
+
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/controls/OrbitControls.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/GLTFLoader.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/../3rdparty/dat.gui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.2/pixi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/in-view.min.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/ripple.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>
