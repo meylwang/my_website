@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0167123b-4e21-4c8f-83db-e83e8acbae4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home/Melinda_Wang_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/Melinda_Wang_Resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charity/charity.html" beforeDir="false" afterPath="$PROJECT_DIR$/charity/charity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ripple.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ripple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letsdance/css/letsdance.css" beforeDir="false" afterPath="$PROJECT_DIR$/letsdance/css/letsdance.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/letsdance/letsdance.html" beforeDir="false" afterPath="$PROJECT_DIR$/letsdance/letsdance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salesforce/images/background-p-800.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/salesforce/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/salesforce/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/css/xr.css" beforeDir="false" afterPath="$PROJECT_DIR$/xr/css/xr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salesforce/salesforce.html" beforeDir="false" afterPath="$PROJECT_DIR$/salesforce/salesforce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketchpack/sketchpack.html" beforeDir="false" afterPath="$PROJECT_DIR$/sketchpack/sketchpack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual/visual.html" beforeDir="false" afterPath="$PROJECT_DIR$/visual/visual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vsco/vsco.html" beforeDir="false" afterPath="$PROJECT_DIR$/vsco/vsco.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xr/donttouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/xr/donttouch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/images/logowhite-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/images/photo-1441716844725-09cedc13a4e7-p-1080x715.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/images/photo-1441716844725-09cedc13a4e7-p-130x130q80.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/images/photo-1441716844725-09cedc13a4e7-p-500x331.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/images/photo-1441716844725-09cedc13a4e7-p-800x530.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/images/photo-1441716844725-09cedc13a4e7.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/xr/lumos.html" beforeDir="false" afterPath="$PROJECT_DIR$/xr/lumos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xr/webflow.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,39 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lumos.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xr/lumos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="51" column="105" selection-start-line="51" selection-start-column="105" selection-end-line="51" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,17 +45,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/loader.js" />
-        <option value="$PROJECT_DIR$/letsdance/letsdance.html" />
         <option value="$PROJECT_DIR$/js/ripple.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scrollsnacp.html" />
         <option value="$PROJECT_DIR$/scrollsnap.html" />
         <option value="$PROJECT_DIR$/css/projects.css" />
         <option value="$PROJECT_DIR$/scrollsnap.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/xr/dont-touch.html" />
-        <option value="$PROJECT_DIR$/xr/donttouch.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/xr/lumos.html" />
+        <option value="$PROJECT_DIR$/xr/donttouch.html" />
+        <option value="$PROJECT_DIR$/vsco/vsco.html" />
+        <option value="$PROJECT_DIR$/visual/visual.html" />
+        <option value="$PROJECT_DIR$/sketchpack/sketchpack.html" />
+        <option value="$PROJECT_DIR$/salesforce/salesforce.html" />
+        <option value="$PROJECT_DIR$/letsdance/letsdance.html" />
+        <option value="$PROJECT_DIR$/charity/charity.html" />
       </list>
     </option>
   </component>
@@ -137,11 +98,6 @@
               <item name="personal_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal_website" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal_website" type="462c0819:PsiDirectoryNode" />
-              <item name="xr" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,26 +142,26 @@
       <workItem from="1564809258030" duration="53000" />
       <workItem from="1564809389974" duration="590000" />
       <workItem from="1564999646483" duration="7241000" />
+      <workItem from="1565016925930" duration="548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8150000" />
+    <option name="totallyTimeSpent" value="8698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1321" height="833" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -224,6 +180,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xr/lumos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="105" selection-start-line="51" selection-start-column="105" selection-end-line="51" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2865">
           <caret line="191" column="83" selection-start-line="191" selection-start-column="83" selection-end-line="191" selection-end-column="83" />
           <folding>
@@ -237,7 +219,6 @@
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -249,38 +230,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charity/charity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="123" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/letsdance/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="119" column="2" lean-forward="true" selection-start-line="119" selection-start-column="2" selection-end-line="274" selection-end-column="8" />
-          <folding>
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/letsdance/letsdance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2395">
-          <caret line="272" column="6" selection-start-line="272" selection-start-column="6" selection-end-line="272" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visual/visual.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visual/css/visual.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/letsdance/index.html" />
     <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-799">
@@ -323,10 +273,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xr/dont-touch.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        <state relative-caret-position="165">
+          <caret line="11" column="89" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="89" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -338,43 +289,21 @@
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xr/dont-touch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="189" column="39" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xr/donttouch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2176">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="173">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
           <folding>
-            <element signature="e#3400#3406#0" expanded="true" />
-            <element signature="e#3569#3575#0" expanded="true" />
-            <element signature="e#3583#3589#0" expanded="true" />
-            <element signature="e#3777#3783#0" expanded="true" />
-            <element signature="e#3791#3797#0" expanded="true" />
-            <element signature="e#3962#3968#0" expanded="true" />
-            <element signature="e#3976#3982#0" expanded="true" />
-            <element signature="e#4225#4231#0" expanded="true" />
-            <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5007#5012#0" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#17742#17748#0" expanded="true" />
-            <element signature="e#17763#17769#0" expanded="true" />
-            <element signature="e#17869#17875#0" expanded="true" />
-            <element signature="e#17898#17904#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -383,8 +312,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xr/lumos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="51" column="105" selection-start-line="51" selection-start-column="105" selection-end-line="51" selection-end-column="105" />
+        <state relative-caret-position="219">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vsco/vsco.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visual/visual.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sketchpack/sketchpack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salesforce/salesforce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letsdance/letsdance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charity/charity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
         </state>
       </provider>
     </entry>
