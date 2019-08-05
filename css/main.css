@@ -5,6 +5,8 @@
 }
 html{
 	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
 }
 body {
 	background-color: white;
@@ -12,6 +14,8 @@ body {
 	font-family: 'Karla', sans-serif;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	scroll-snap-type: y mandatory;
+	width: 100%;
 }
 
 a {
@@ -90,17 +94,6 @@ a {
 	font-weight: 700;
 	font-size: 20px;
 	font-family: 'Lora';
-}
-
-#app {
-	position: relative;
-	margin-top: 90vh;
-	padding-top: 7vh;
-	z-index: 1;
-	background-color: white;
-	width: 100vw;
-	padding-bottom: 7vh;
-
 }
 
 .footer {

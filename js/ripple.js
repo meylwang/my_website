@@ -11,7 +11,6 @@ let appnames = [
 ];
 let projects;
 let titles = [];
-let subtitles = [];
 let descriptions = [];
 let canvases = [];
 
@@ -105,9 +104,7 @@ let setup = function() {
         canvases.push(holder[2]);
         holder = holder[1].children;
         descriptions.push(holder[1]);
-        holder = holder[0].children;
-        subtitles.push(holder[1]);
-        titles.push(holder[0].children[0]);
+        titles.push(holder[0]);
     }
     scrollBuffer = window.innerHeight/8;
 };
@@ -120,7 +117,6 @@ let startScroll = function() {
         canvases[i].classList.remove('expand');
         projects[i].classList.remove('tall');
         titles[i].classList.remove('animate');
-        subtitles[i].classList.remove('animate');
         descriptions[i].classList.remove('animate');
     }
 };
@@ -137,7 +133,6 @@ let stopScroll = function() {
         canvases[i].classList.add('expand');
         projects[i].classList.add('tall');
         titles[i].classList.add('animate');
-        subtitles[i].classList.add('animate');
         descriptions[i].classList.add('animate');
         startedScroll = false;
     }

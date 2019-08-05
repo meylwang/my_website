@@ -3,7 +3,7 @@ let shouldLoad;
 
 function loadingHandler() {
     let toParse = document.referrer;
-    if (toParse.includes('melindawang') || performance.navigation.type===1) {
+    if (toParse.includes('melindawang') || performance.navigation.type===1 || performance.navigation.type===2) {
         shouldLoad = false;
         removeLoader();
     } else {
