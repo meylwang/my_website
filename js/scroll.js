@@ -64,7 +64,7 @@ let activeFooter = function () {
 };
 
 let inactiveFooter = function () {
-    fscene.remove(fpivot);
+    fscene.remove(fscene.children[4]);
     footer = false;
 };
 

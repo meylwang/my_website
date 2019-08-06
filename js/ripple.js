@@ -97,16 +97,15 @@ let setup = function() {
         app.container.children[2].classList.add('masking');
         apps.push(app);
     }
-    projects = document.getElementsByClassName('project');
+    projects = $('.project');
+    descriptions = $('.project-description');
+    titles = $('.project-animbox');
     let holder;
     for (let i=0; i<projects.length; i++) {
         holder = projects[i].children;
         canvases.push(holder[2]);
-        holder = holder[1].children;
-        descriptions.push(holder[1]);
-        titles.push(holder[0]);
     }
-    scrollBuffer = window.innerHeight/8;
+    scrollBuffer = window.innerHeight/10;
 };
 
 let startScroll = function() {
