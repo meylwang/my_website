@@ -46,11 +46,14 @@ let setCurrent = function() {
 
 let doSomething = function (num) {
     screen[num] = true;
+    apps[num].visible = true;
+    apps[num].animate();
     manageMenu();
 };
 
 let exiting = function (num) {
     screen[num] = false;
+    apps[num].visible = false;
     manageMenu();
 };
 
