@@ -59,3 +59,15 @@ opacity: 0 !important;
     display: block;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    #loader {
+        font-size: 4vw;
+        line-height: 17px;
+        text-shadow: -1px 1px #E587AC;
+    }
+
+    .loader-space {
+        width: 1vw !important;
+    }
+}

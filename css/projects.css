@@ -32,15 +32,6 @@
     padding-left: 6vw;
 }
 
-.project-img {
-    width: 67vw;
-    margin-left: 6vw;
-}
-
-.project-img > img {
-    width: 100%;
-}
-
 .project-animbox {
     display: flex;
     justify-content: left;
