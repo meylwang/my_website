@@ -8,7 +8,7 @@
     /* z-index: 2; */
     height: 43vw;
     transition: margin-bottom 500ms;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
 }
 
 .project.top {
@@ -17,7 +17,7 @@
 }
 
 .project.bottom {
-    padding-bottom: 7vh;
+    height: 50vw;
 }
 
 .tall {
@@ -30,6 +30,15 @@
     /* margin-left: 42vw; */
     margin-top: 13vh;
     padding-left: 6vw;
+}
+
+.project-img {
+    width: 67vw;
+    margin-left: 6vw;
+}
+
+.project-img > img {
+    width: 100%;
 }
 
 .project-animbox {
@@ -96,7 +105,6 @@
     position: absolute;
     clip: rect(0px, 85vw,30vw,0px);
     transition: clip 500ms;
-    margin-left: 5vw;
     z-index: 2;
 }
 

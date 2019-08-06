@@ -46,24 +46,23 @@ let setCurrent = function() {
 
 let doSomething = function (num) {
     screen[num] = true;
-    apps[num].visible = true;
-    apps[num].animate();
     manageMenu();
 };
 
 let exiting = function (num) {
     screen[num] = false;
-    apps[num].visible = false;
     manageMenu();
 };
 
 let activeFooter = function () {
     footer = true;
     footerAnimate();
+    $('body')[0].classList.add('nosnap');
 };
 
 let inactiveFooter = function () {
     footer = false;
+    $('body')[0].classList.remove('nosnap');
 };
 
 inView('#charity')
@@ -109,9 +108,11 @@ inView('#donttouch')
 inView('#lumos')
     .on('enter', el => {
         doSomething(5);
+
     })
     .on('exit', el => {
         exiting(5);
+
     });
 
 inView('#sketchpack')

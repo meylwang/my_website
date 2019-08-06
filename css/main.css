@@ -3,19 +3,25 @@
 	-moz-box-sizing: border-box;
 	text-decoration: none;
 }
-html{
-	overflow-x: hidden;
+html {
 	height: 100%;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
+
 body {
 	background-color: white;
 	margin: auto;
 	font-family: 'Karla', sans-serif;
 	overflow-x: hidden;
-	overflow-y: hidden;
-	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	scroll-snap-type: y proximity;
 	width: 100%;
+}
+
+body.nosnap {
+	scroll-snap-type: none !important;
 }
 
 a {
