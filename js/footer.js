@@ -94,6 +94,7 @@ function footerAnimate() {
             fpivot.children[i].rotation.y += .07;
 
         }
+
     }
     requestAnimationFrame( footerAnimate );
     footerRender();

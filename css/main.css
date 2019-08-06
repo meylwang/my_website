@@ -105,6 +105,7 @@ a {
 .footer {
 	z-index: 0;
 	position: relative;
+	background-color: #F8EDC0;
 }
 
 .footer-textblock {
