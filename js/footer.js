@@ -79,7 +79,6 @@ function footerInit() {
                 fpivot.add(froot);
                 //fpivot.position.x += 70;
                 //fpivot.position.y += -35;
-                if (i==2 && j==2) fscene.add(fpivot);
                 //root.position.x = 4.5;
             }, onProgress, onError );
         }
@@ -92,7 +91,6 @@ function footerAnimate() {
     if(footer) {
         for (let i=0; i<fpivot.children.length; i++) {
             fpivot.children[i].rotation.y += .07;
-
         }
 
     }

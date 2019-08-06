@@ -58,14 +58,14 @@ let exiting = function (num) {
 };
 
 let activeFooter = function () {
+    fscene.add(fpivot);
     footer = true;
     footerAnimate();
-    $('body')[0].classList.add('nosnap');
 };
 
 let inactiveFooter = function () {
+    fscene.remove(fpivot);
     footer = false;
-    $('body')[0].classList.remove('nosnap');
 };
 
 inView('#charity')
