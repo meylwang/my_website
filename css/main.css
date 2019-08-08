@@ -72,12 +72,12 @@ a {
 	font-family: 'Karla';
 }
 .hero-link {
-	padding-right: 3px;
+	padding-right: 9px;
 	font-size: 17px;
 	color: black;
 	/* font-family: 'Lora', serif; */
 	/* font-style: italic; */
-	text-decoration: none;
+	text-decoration: underline !important;
 	font-weight: 400;
 }
 .hero-link:hover {
