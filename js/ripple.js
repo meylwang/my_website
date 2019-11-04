@@ -7,6 +7,7 @@ let appnames = [
     'donttouch',
     'lumos',
     'sketchpack',
+    'dragqueens',
     'visual'
 ];
 let projects;
@@ -34,6 +35,7 @@ class Application {
             'images/i-donttouch.png',
             'images/i-lumos.png',
             'images/i-sketchpack.png',
+            'images/i-dragqueens.png',
             'images/i-visual.png'
         ];
         this.speed = 50;

@@ -1,5 +1,5 @@
 let current;
-let screen = [false, false, false, false, false, false, false, false];
+let screen = [false, false, false, false, false, false, false, false, false];
 let hero = true;
 let footer = false;
 let menu = document.querySelectorAll('.menu-item');
@@ -30,8 +30,8 @@ let setCurrent = function() {
     if (screen[0]&&!screen[1]) {
         current = 0;
     }
-    if (screen[7]&&!screen[5]) {
-        current = 8;
+    if (screen[8]&&!screen[6]) {
+        current = 9;
     }
     for (let i=0; i<screen.length-2; i++) {
         if (!screen[i]) continue;
@@ -126,12 +126,20 @@ inView('#sketchpack')
         exiting(6);
     });
 
-inView('#visual')
+inView('#dragqueens')
     .on('enter', el => {
         doSomething(7);
     })
     .on('exit', el => {
         exiting(7);
+    });
+
+inView('#visual')
+    .on('enter', el => {
+        doSomething(8);
+    })
+    .on('exit', el => {
+        exiting(8);
     });
 
 inView('#footer')
