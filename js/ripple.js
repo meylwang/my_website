@@ -73,13 +73,14 @@ class Application {
         this.stage.addChild(this.sprite);
         this.stage.addChild(this.displacementSprite);
         this.stage.filters = null;
-        this.visible = false;
+        this.visible = true;
         //this.animate();
     }
     animate() {
         if (this.visible) {
             requestAnimationFrame(() => this.animate());
             this.renderer.render(this.stage);
+            /*
             if (this.active) {
                 this.speed += 1;
                 this.stage.filters = [this.displacementFilter];
@@ -87,6 +88,7 @@ class Application {
                 this.displacementSprite.x = this.speed;
                 this.displacementSprite.y = this.speed;
             }
+            */
         }
     }
 }

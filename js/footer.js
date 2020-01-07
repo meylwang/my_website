@@ -2,8 +2,8 @@ let fcamera, fscene, frenderer;
 let froot;
 let fpivot;
 
-footerInit();
-footerAnimate();
+//footerInit();
+//footerAnimate();
 
 
 function footerInit() {
